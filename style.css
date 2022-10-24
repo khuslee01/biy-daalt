@@ -1,97 +1,284 @@
-.header{
-  
-    justify-content: end;
+.header {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-
 }
 
-.header-left{
-    
+.header-left {
+    margin-right: auto;
     display: flex;
     justify-content: end;
     align-items: center;
-
 }
-.header-left_logo{
+
+.header-left_logo {
     margin-right: auto;
 }
-.ul-items{
+
+.ul-items {
     display: flex;
-  }
-  
-  .ul-items li{
+}
+
+.ul-items li {
     padding: 16px;
     font-weight: 600;
-  }
+}
 
 
-  .header-section{
+.header-section {
     background-color: #DCEAF5;
+    padding-right: 150px;
+}
 
-  }
-  .header-right_button{
-    background-color:rgba(245, 138, 7, 0.1) ;
+.header-section-wrapper {
+    position: relative;
+    padding: 85px;
+}
+
+.header-section-wrapper .img {
+    position: absolute;
+    right: -150px;
+    bottom: 0;
+}
+
+.header-right_button {
+    background-color: rgba(245, 138, 7, 0.1);
     border-radius: 31px;
     color: #F58A07;
-padding: 18px 30px;  
+    padding: 18px 30px;
 }
-.section-container{
+
+.section-container {
     padding-top: 117px;
     padding-left: 326px;
     padding-right: 53px;
     padding-bottom: 147px;
 
 }
-.header-section{
-    display: flex;}
-    .header-imeages.png{
-display: flexf;
-    }
 
-.header-section-title{
+/* .header-section{ */
+
+.header-section-item p {
+    /* Worked with 100+ Companies */
+    display: flex;
+    position: absolute;
+    width: 262px;
+    height: 30px;
+
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: end;
+    /* identical to box height, or 167% */
+
+
+    color: rgba(57, 65, 73, 0.5);
+}
+
+.header-section-title {
     font-weight: 600;
     font-size: 64px;
     line-height: 72px;
-    text-align: center;
 
     color: #1D3444;
 
 }
-.header-section-comm{
-    font-weight: 500;
+
+.header-section-comm {
+    padding: 30px;
+    font-weight: 600;
     font-size: 18px;
     line-height: 30px;
-    text-align: end;
-    
+    color: #5b5b5b;
 }
-header-imeages.png{
-position: absolute;
-padding: 400px;
+
+.BG-btn {
+    /* position: absolute; */
+    background-color: #F58A07;
+    border-radius: 31px;
+    color: #fff;
+    /* padding: 18px 30px; */
 
 }
 
-.header-section-inside{
-    position: relative;
+
+
+
+.header-section-bottom {
+    color: rgba(29, 52, 68, 1);
+    font-size: 16px;
+    line-height: 17.04px;
+    padding: 30px;
+
+}
+
+.header-section-inside {
+    width: 576px;
     padding-top: 117px;
     padding-bottom: 147px;
 }
 
-
-.header-section-inside .img{
+.header-image {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    display: flex
 }
 
-.header-section-title{
+.header-section-title {
     width: 576px;
     height: 144px;
     text-align: left;
 }
 
-.header-section-comm{
-    width: 571px;
+.header-section-comm {
     height: 60px;
-text-align: left;
+    text-align: left;
 }
 
+.header-section-logo {
+    display: flex;
+    padding-top: 30px;
+
+}
+
+
+.header-section-item {
+    font-size: 18px;
+
+    width: 262px;
+    height: 30px;
+}
+
+.container h2 {
+    width: 735px;
+    height: 112px;
+    left: 320px;
+    top: 883px;
+    /* H2 Heading */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+
+    letter-spacing: -0.03em;
+    /* or 167%  */
+    color: #1D3444;
+
+}
+
+.lorem p {
+
+    width: 735px;
+    height: 90px;
+    left: 320px;
+    top: 1022px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+
+    color: rgba(91, 91, 91, 1)
+}
+
+.help-post {
+    /* padding-left: 500px; */
+    display: contents;
+}
+
+.post1 {
+
+    position: absolute;
+    width: 399px;
+    height: 242px;
+    left: 321px;
+    top: 1176px;
+    align-items: flex-start;
+    border-radius: 20px;
+
+}
+
+.post1 img {
+    border-radius: 20px;
+}
+
+
+.post2 {
+    position: absolute;
+    width: 400px;
+    left: 760px;
+    top: 1117px;
+}
+
+.post2 img {
+    border-radius: 20px;
+}
+
+.post3 {
+    position: absolute;
+    align-items: flex-end;
+    width: 400px;
+    height: 242px;
+    left: 1200px;
+    top: 1176px;
+}
+
+.post3 img {
+    border-radius: 20px;
+
+}
+
+.container_img {
+    padding-top: 60px;
+}
+
+
+
+
+.content {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(91, 91, 91, 1);
+}
+
+.content--text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 52, 68, 1);
+}
+
+.content_text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(91, 91, 91, 1);
+}
+
+
+
+
+
+.Business {
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(13, 19, 23, 1);
+}
+
+.Digitalization {
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(13, 19, 23, 1);
+}
+
+.Risk-assessment {
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(13, 19, 23, 1);
+
+}
